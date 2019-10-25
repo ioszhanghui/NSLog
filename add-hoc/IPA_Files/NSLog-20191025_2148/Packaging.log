@@ -1,0 +1,154 @@
+2019-10-25 13:48:56 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ffd7eea4f10; archive(resolved)='<IDEArchive: 0x7ffd7ef4b450>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7ffd7ee50aa0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7ffd7f1587a0; teamID='F6SK2FS6XU', teamName='(null)'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ffd7eea4f10; archive = '<IDEArchive: 0x7ffd7ef4b450>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd7ee50aa0>', team='<IDEProvisioningBasicTeam: 0x7ffd7f1587a0; teamID='F6SK2FS6XU', teamName='(null)'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7ffd7ee821b0; archive = '<IDEArchive: 0x7ffd7ef4b450>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd7ee50aa0>', team='<IDEProvisioningBasicTeam: 0x7ffd7f1587a0; teamID='F6SK2FS6XU', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffd7ee81d80; archive = '<IDEArchive: 0x7ffd7ef4b450>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd7ee50aa0>', team='<IDEProvisioningBasicTeam: 0x7ffd7f1587a0; teamID='F6SK2FS6XU', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffd7f170510; archive = '<IDEArchive: 0x7ffd7ef4b450>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd7ee50aa0>', team='<IDEProvisioningBasicTeam: 0x7ffd7f1587a0; teamID='F6SK2FS6XU', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffd7ee91d90; archive = '<IDEArchive: 0x7ffd7ef4b450>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd7ee50aa0>', team='<IDEProvisioningBasicTeam: 0x7ffd7f1587a0; teamID='F6SK2FS6XU', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffd7c40c7d0; archive = '<IDEArchive: 0x7ffd7ef4b450>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd7ee50aa0>', team='<IDEProvisioningBasicTeam: 0x7ffd7f1587a0; teamID='F6SK2FS6XU', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffd7efc6a20; archive = '<IDEArchive: 0x7ffd7ef4b450>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd7ee50aa0>', team='<IDEProvisioningBasicTeam: 0x7ffd7f1587a0; teamID='F6SK2FS6XU', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffd7ef9e790; archive = '<IDEArchive: 0x7ffd7ef4b450>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd7ee50aa0>', team='<IDEProvisioningBasicTeam: 0x7ffd7f1587a0; teamID='F6SK2FS6XU', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffd7ee7f1b0; archive = '<IDEArchive: 0x7ffd7ef4b450>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd7ee50aa0>', team='<IDEProvisioningBasicTeam: 0x7ffd7f1587a0; teamID='F6SK2FS6XU', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffd7ebe2230; archive = '<IDEArchive: 0x7ffd7ef4b450>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffd7ee50aa0>', team='(null)'>
+	<IDEDistributionContext: 0x7ffd7edc1900; archive = '<IDEArchive: 0x7ffd7ef4b450>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7ffd7eea4f10>
+2019-10-25 13:48:56 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2019-10-25 13:48:56 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2019-10-25 13:48:56 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/xiaofeiniao/Desktop/NSLog/Build/NSLog.xcarchive/Products/Applications/NSLog.app' '/var/folders/67/8l__g6vn2h3_ksq3zfzrzgsh0000gn/T/XcodeDistPipeline.XRG/Root/Payload/NSLog.app'
+2019-10-25 13:48:56 +0000  >>> Copying /Users/xiaofeiniao/Desktop/NSLog/Build/NSLog.xcarchive/Products/Applications/NSLog.app 
+2019-10-25 13:48:56 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-10-25 13:48:56 +0000  8299 bytes for ./_CodeSignature/CodeResources
+2019-10-25 13:48:56 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2019-10-25 13:48:56 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2019-10-25 13:48:56 +0000  1986 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2019-10-25 13:48:56 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2019-10-25 13:48:56 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2019-10-25 13:48:56 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-10-25 13:48:56 +0000  1985 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2019-10-25 13:48:56 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-10-25 13:48:56 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-10-25 13:48:56 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-10-25 13:48:56 +0000  copying file ./NSLog ... 
+2019-10-25 13:48:56 +0000  293536 bytes for ./NSLog
+2019-10-25 13:48:56 +0000  copying file ./embedded.mobileprovision ... 
+2019-10-25 13:48:56 +0000  7395 bytes for ./embedded.mobileprovision
+2019-10-25 13:48:56 +0000  copying file ./SVProgressHUD.bundle/info.png ... 
+2019-10-25 13:48:56 +0000  365 bytes for ./SVProgressHUD.bundle/info.png
+copying file ./SVProgressHUD.bundle/error@3x.png ... 
+2019-10-25 13:48:56 +0000  398 bytes for ./SVProgressHUD.bundle/error@3x.png
+copying file ./SVProgressHUD.bundle/angle-mask@3x.png ... 
+2019-10-25 13:48:56 +0000  8319 bytes for ./SVProgressHUD.bundle/angle-mask@3x.png
+copying file ./SVProgressHUD.bundle/angle-mask@2x.png ... 
+2019-10-25 13:48:56 +0000  4893 bytes for ./SVProgressHUD.bundle/angle-mask@2x.png
+copying file ./SVProgressHUD.bundle/error@2x.png ... 
+2019-10-25 13:48:56 +0000  306 bytes for ./SVProgressHUD.bundle/error@2x.png
+2019-10-25 13:48:56 +0000  copying file ./SVProgressHUD.bundle/info@3x.png ... 
+2019-10-25 13:48:56 +0000  1200 bytes for ./SVProgressHUD.bundle/info@3x.png
+copying file ./SVProgressHUD.bundle/success@2x.png ... 
+2019-10-25 13:48:56 +0000  462 bytes for ./SVProgressHUD.bundle/success@2x.png
+2019-10-25 13:48:56 +0000  copying file ./SVProgressHUD.bundle/success@3x.png ... 
+2019-10-25 13:48:56 +0000  714 bytes for ./SVProgressHUD.bundle/success@3x.png
+copying file ./SVProgressHUD.bundle/info@2x.png ... 
+2019-10-25 13:48:56 +0000  816 bytes for ./SVProgressHUD.bundle/info@2x.png
+2019-10-25 13:48:56 +0000  copying file ./SVProgressHUD.bundle/error.png ... 
+2019-10-25 13:48:56 +0000  184 bytes for ./SVProgressHUD.bundle/error.png
+copying file ./SVProgressHUD.bundle/success.png ... 
+2019-10-25 13:48:56 +0000  262 bytes for ./SVProgressHUD.bundle/success.png
+2019-10-25 13:48:56 +0000  copying file ./SVProgressHUD.bundle/angle-mask.png ... 
+2019-10-25 13:48:56 +0000  1845 bytes for ./SVProgressHUD.bundle/angle-mask.png
+2019-10-25 13:48:56 +0000  copying file ./Info.plist ... 
+2019-10-25 13:48:56 +0000  1106 bytes for ./Info.plist
+2019-10-25 13:48:56 +0000  copying file ./PkgInfo ... 
+2019-10-25 13:48:56 +0000  8 bytes for ./PkgInfo
+2019-10-25 13:48:56 +0000 [MT] /usr/bin/ditto exited with 0
+2019-10-25 13:48:56 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2019-10-25 13:48:56 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2019-10-25 13:48:56 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-10-25 13:48:56 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2019-10-25 13:48:56 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-10-25 13:48:56 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2019-10-25 13:48:56 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-10-25 13:48:56 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-10-25 13:48:56 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2019-10-25 13:48:56 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-10-25 13:48:56 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2019-10-25 13:48:56 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2019-10-25 13:48:56 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2019-10-25 13:48:56 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/67/8l__g6vn2h3_ksq3zfzrzgsh0000gn/T/XcodeDistPipeline.XRG/Root/Payload/NSLog.app/NSLog' '-verify_arch' 'arm64e'
+2019-10-25 13:48:56 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-10-25 13:48:56 +0000 [MT] Skipping architecture thinning for item "NSLog" because arch "arm64e" wasn't found
+2019-10-25 13:48:56 +0000 [MT] Processing step: IDEDistributionODRStep
+2019-10-25 13:48:56 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2019-10-25 13:48:56 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/67/8l__g6vn2h3_ksq3zfzrzgsh0000gn/T/XcodeDistPipeline.XRG/Root/Payload/NSLog.app'
+2019-10-25 13:48:57 +0000 [MT] /usr/bin/xattr exited with 0
+2019-10-25 13:48:57 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2019-10-25 13:48:57 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7ffd7ef9c5a0 'com.test.xuesheng' '<DVTFilePath:0x7ffd7edd49a0:'/Users/xiaofeiniao/Desktop/NSLog/Build/NSLog.xcarchive/Products/Applications/NSLog.app'>'>: {
+    "application-identifier" = "F6SK2FS6XU.com.test.xuesheng";
+    "com.apple.developer.team-identifier" = F6SK2FS6XU;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "F6SK2FS6XU.com.test.xuesheng"
+    );
+}
+2019-10-25 13:48:57 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7ffd7ef9c5a0 'com.test.xuesheng' '<DVTFilePath:0x7ffd7edd49a0:'/Users/xiaofeiniao/Desktop/NSLog/Build/NSLog.xcarchive/Products/Applications/NSLog.app'>'> to: /var/folders/67/8l__g6vn2h3_ksq3zfzrzgsh0000gn/T/XcodeDistPipeline.XRG/entitlementsCE8S47
+2019-10-25 13:48:57 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7722B11A5366CC4830D03A3541C1FDC6535577EA' '--entitlements' '/var/folders/67/8l__g6vn2h3_ksq3zfzrzgsh0000gn/T/XcodeDistPipeline.XRG/entitlementsCE8S47' '--preserve-metadata=identifier,flags,runtime' '/var/folders/67/8l__g6vn2h3_ksq3zfzrzgsh0000gn/T/XcodeDistPipeline.XRG/Root/Payload/NSLog.app'
+2019-10-25 13:48:57 +0000  /var/folders/67/8l__g6vn2h3_ksq3zfzrzgsh0000gn/T/XcodeDistPipeline.XRG/Root/Payload/NSLog.app: replacing existing signature
+2019-10-25 13:48:57 +0000  /var/folders/67/8l__g6vn2h3_ksq3zfzrzgsh0000gn/T/XcodeDistPipeline.XRG/Root/Payload/NSLog.app: signed app bundle with Mach-O universal (armv7 arm64) [com.test.xuesheng]
+2019-10-25 13:48:57 +0000 [MT] /usr/bin/codesign exited with 0
+2019-10-25 13:48:57 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2019-10-25 13:48:57 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-25 13:48:57 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2019-10-25 13:48:57 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/67/8l__g6vn2h3_ksq3zfzrzgsh0000gn/T/XcodeDistPipeline.XRG/Root' '/var/folders/67/8l__g6vn2h3_ksq3zfzrzgsh0000gn/T/XcodeDistPipeline.XRG/Packages/NSLog.ipa'
+2019-10-25 13:48:57 +0000  >>> Copying /var/folders/67/8l__g6vn2h3_ksq3zfzrzgsh0000gn/T/XcodeDistPipeline.XRG/Root 
+2019-10-25 13:48:57 +0000  copying file ./Payload/NSLog.app/_CodeSignature/CodeResources ... 
+2019-10-25 13:48:57 +0000  8299 bytes for ./Payload/NSLog.app/_CodeSignature/CodeResources
+2019-10-25 13:48:57 +0000  copying file ./Payload/NSLog.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2019-10-25 13:48:57 +0000  916 bytes for ./Payload/NSLog.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2019-10-25 13:48:57 +0000  copying file ./Payload/NSLog.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2019-10-25 13:48:57 +0000  1986 bytes for ./Payload/NSLog.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2019-10-25 13:48:57 +0000  copying file ./Payload/NSLog.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2019-10-25 13:48:57 +0000  258 bytes for ./Payload/NSLog.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/NSLog.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-10-25 13:48:57 +0000  1985 bytes for ./Payload/NSLog.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/NSLog.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-10-25 13:48:57 +0000  832 bytes for ./Payload/NSLog.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/NSLog.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-10-25 13:48:57 +0000  258 bytes for ./Payload/NSLog.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/NSLog.app/NSLog ... 
+2019-10-25 13:48:57 +0000  293536 bytes for ./Payload/NSLog.app/NSLog
+copying file ./Payload/NSLog.app/embedded.mobileprovision ... 
+2019-10-25 13:48:57 +0000  7395 bytes for ./Payload/NSLog.app/embedded.mobileprovision
+2019-10-25 13:48:57 +0000  copying file ./Payload/NSLog.app/SVProgressHUD.bundle/info.png ... 
+2019-10-25 13:48:57 +0000  365 bytes for ./Payload/NSLog.app/SVProgressHUD.bundle/info.png
+copying file ./Payload/NSLog.app/SVProgressHUD.bundle/error@3x.png ... 
+2019-10-25 13:48:57 +0000  398 bytes for ./Payload/NSLog.app/SVProgressHUD.bundle/error@3x.png
+copying file ./Payload/NSLog.app/SVProgressHUD.bundle/angle-mask@3x.png ... 
+2019-10-25 13:48:57 +0000  8319 bytes for ./Payload/NSLog.app/SVProgressHUD.bundle/angle-mask@3x.png
+copying file ./Payload/NSLog.app/SVProgressHUD.bundle/angle-mask@2x.png ... 
+2019-10-25 13:48:57 +0000  4893 bytes for ./Payload/NSLog.app/SVProgressHUD.bundle/angle-mask@2x.png
+2019-10-25 13:48:57 +0000  copying file ./Payload/NSLog.app/SVProgressHUD.bundle/error@2x.png ... 
+306 bytes for ./Payload/NSLog.app/SVProgressHUD.bundle/error@2x.png
+copying file ./Payload/NSLog.app/SVProgressHUD.bundle/info@3x.png ... 
+2019-10-25 13:48:57 +0000  1200 bytes for ./Payload/NSLog.app/SVProgressHUD.bundle/info@3x.png
+2019-10-25 13:48:57 +0000  copying file ./Payload/NSLog.app/SVProgressHUD.bundle/success@2x.png ... 
+462 bytes for ./Payload/NSLog.app/SVProgressHUD.bundle/success@2x.png
+2019-10-25 13:48:57 +0000  copying file ./Payload/NSLog.app/SVProgressHUD.bundle/success@3x.png ... 
+2019-10-25 13:48:57 +0000  714 bytes for ./Payload/NSLog.app/SVProgressHUD.bundle/success@3x.png
+copying file ./Payload/NSLog.app/SVProgressHUD.bundle/info@2x.png ... 
+2019-10-25 13:48:57 +0000  816 bytes for ./Payload/NSLog.app/SVProgressHUD.bundle/info@2x.png
+copying file ./Payload/NSLog.app/SVProgressHUD.bundle/error.png ... 
+2019-10-25 13:48:57 +0000  184 bytes for ./Payload/NSLog.app/SVProgressHUD.bundle/error.png
+copying file ./Payload/NSLog.app/SVProgressHUD.bundle/success.png ... 
+2019-10-25 13:48:57 +0000  262 bytes for ./Payload/NSLog.app/SVProgressHUD.bundle/success.png
+copying file ./Payload/NSLog.app/SVProgressHUD.bundle/angle-mask.png ... 
+2019-10-25 13:48:57 +0000  1845 bytes for ./Payload/NSLog.app/SVProgressHUD.bundle/angle-mask.png
+2019-10-25 13:48:57 +0000  copying file ./Payload/NSLog.app/Info.plist ... 
+2019-10-25 13:48:57 +0000  1106 bytes for ./Payload/NSLog.app/Info.plist
+copying file ./Payload/NSLog.app/PkgInfo ... 
+2019-10-25 13:48:57 +0000  8 bytes for ./Payload/NSLog.app/PkgInfo
+2019-10-25 13:48:57 +0000 [MT] /usr/bin/ditto exited with 0
+2019-10-25 13:48:57 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2019-10-25 13:48:57 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-10-25 13:48:57 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
